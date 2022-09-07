@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    --color-primary: #37474f;
+    --color-primary-dark: #263238;
+    --color-primary-light: #546e7a;
+    --color-primary-lighter: #b0bec5;
+    --text-color: #fafafa;
+    --link-color: #444444;
+    --border-color: rgba(176, 190, 197, 0.5);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --shadow-color-dark: rgba(0, 0, 0, 0.25);
+    background-color: white;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  form,
+  input,
+  button,
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  button {
+    outline: none;
+    cursor: pointer;
+  }
+
+
+body {
+    margin: 0;
+    background-color: ghostwhite;
+}
+
+.container {
+    padding: 5px;
+    margin:  auto;
+    
+        position: relative;
+  
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    opacity: 0.4;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    opacity: 0.4;
+  }
+
+.movie {
+    margin-top: 50px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    transition: 250ms all;
+  
+}
+
+section .imageContainer {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+
+
+.imageContainer {
+    transition: 250ms all;
+    width: 300px;
+}
+@media screen and (max-width:768px){
+    .imageContainer{
+        transition: 250ms all;
+    width: 45%; 
+    }
+}
+
+
+
+
+.imageContainer {
+   
+  padding: 10px;
+   
+    cursor: pointer;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    outline: none;
+    min-height: 38px;
+    max-width: 200px;
+    
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.form-group{
+    padding: 1rem;
+    
+}
+
+.form-control {
+    width: 200px;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  
+}
+#movie_btn{
+  border: none;
+  
+}
+
+
+
+
+
+
